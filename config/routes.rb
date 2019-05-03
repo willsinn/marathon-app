@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :users, :marathons, :donations, :charities
+  resources :users, :marathons, :donations, :charitys
   # get 'donations/new'
   # get 'charities/index'
   # get 'charities/show'

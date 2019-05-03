@@ -1,6 +1,6 @@
-class CreateCharities < ActiveRecord::Migration[5.2]
+class CreateCharitys < ActiveRecord::Migration[5.2]
   def change
-    create_table :charities do |t|
+    create_table :charitys do |t|
       t.string :name
       t.string :description
 

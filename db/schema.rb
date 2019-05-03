@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_05_03_144725) do
 
-  create_table "charities", force: :cascade do |t|
+  create_table "charitys", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.datetime "created_at", null: false
@@ -29,13 +29,13 @@ ActiveRecord::Schema.define(version: 2019_05_03_144725) do
     t.index ["user_id"], name: "index_donations_on_user_id"
   end
 
-  create_table "marathon_charities", force: :cascade do |t|
+  create_table "marathon_charitys", force: :cascade do |t|
     t.integer "marathon_id"
     t.integer "charity_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["charity_id"], name: "index_marathon_charities_on_charity_id"
-    t.index ["marathon_id"], name: "index_marathon_charities_on_marathon_id"
+    t.index ["charity_id"], name: "index_marathon_charitys_on_charity_id"
+    t.index ["marathon_id"], name: "index_marathon_charitys_on_marathon_id"
   end
 
   create_table "marathons", force: :cascade do |t|

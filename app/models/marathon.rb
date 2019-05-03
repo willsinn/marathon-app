@@ -1,3 +1,3 @@
 class Marathon < ApplicationRecord
-  has_many :participations, :marathon_charities
+  has_many :participations, :marathon_charitys
 end
