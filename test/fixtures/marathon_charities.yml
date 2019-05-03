@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  marathon_id: 1
+  charity_id: 1
+  marathon: one
+  charity: one
+
+two:
+  marathon_id: 1
+  charity_id: 1
+  marathon: two
+  charity: two
